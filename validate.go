@@ -28,6 +28,8 @@ var goodset = map[uint64]bool{
 	mh.ID:           true,
 
 	mh.SHA1: true, // not really secure but still useful
+	mh.BLAKE3: true, // by the will of the people
+
 }
 
 func IsGoodHash(code uint64) bool {
